@@ -7,6 +7,10 @@ body {
     background-color: black;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: purple;
     width: 100%;
@@ -45,8 +49,8 @@ li {
     margin: 15px;
     position: relative;
     left: 190%;
-    font-size: large;
-
+    font-size: 120%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 #logo {
@@ -83,7 +87,10 @@ h1 {
     color: black;
     position: absolute;
     bottom: 150px;
+    text-align: center;
+    margin-right: 25%;
     margin-top: 35px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 
 }
 
@@ -92,6 +99,15 @@ h1 {
     display: inline-block;
     text-align: center;
     opacity: 0.9;
+}
+
+
+#about:active {
+    transform: scale(0.9);
+    background-color: aqua;
+    transition-duration: 0.5s;
+    scroll-behavior: smooth;
+    transition-timing-function: ease-in-out;
 }
 
 aside {
@@ -109,6 +125,8 @@ aside {
     bottom: 15%;
     padding-left: 3%;
     padding-right: 3%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 
 #diversity {
@@ -136,6 +154,7 @@ aside {
     bottom: 25%;
     padding-left: 3%;
     padding-right: 3%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 #place {
@@ -158,4 +177,6 @@ aside {
     bottom: 25%;
     padding-left: 3%;
     padding-right: 3%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
