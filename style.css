@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: purple;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    top: 1vh;
+}
+
+#options {
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    left: 200%;
+    font-size: large;
+    
+}
+
+#logo {
+    align-items: center;
+}
