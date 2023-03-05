@@ -98,13 +98,6 @@ aside {
     color: white;
 }
 
-#condiments {
-    width: 30%;
-    display: inline-block;
-    border: 1px solid whitesmoke;
-
-}
-
 #fresh {
     display: inline-block;
     text-align: left;
@@ -127,12 +120,34 @@ aside {
     text-align: center;
 }
 
-#team {
+.img {
     border: 1px solid white;
     width: 30%;
 }
 
 #text-diversity {
+    text-align: left;
+    display: inline-block;
+    color: wheat;
+    width: 40%;
+    font-size: x-large;
+    font-weight: 400;
+    position: relative;
+    bottom: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#place {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+}
+
+#restaurant {
     text-align: left;
     display: inline-block;
     color: wheat;
