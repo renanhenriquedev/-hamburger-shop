@@ -75,35 +75,13 @@ main {
     flex-direction: column;
 }
 
-#description {
 
-    text-align: center;
-    align-items: center;
-    display: inline-block;
-    background-color: black;
-    position: relative;
-}
 
 #background {
     opacity: 0.9;
 }
 
-#ideals {
-    top: 0px;
-    text-align: center;
-    left: 30%;
-}
 
-h1 {
-    color: black;
-    position: absolute;
-    bottom: 150px;
-    text-align: center;
-    margin-right: 25%;
-    margin-top: 35px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-
-}
 
 #ingredients {
     margin-top: 30px;
@@ -121,9 +99,7 @@ h1 {
     transition-timing-function: ease-in-out;
 }
 
-aside {
-    color: white;
-}
+
 
 #fresh {
     display: inline-block;
@@ -140,57 +116,32 @@ aside {
 
 }
 
-#diversity {
-    margin-top: 30px;
-    background-color: black;
-    opacity: 0.9;
-    text-align: center;
-    display: inline-block;
-    text-align: center;
-}
 
 .img {
     border: 1px solid white;
     width: 30%;
 }
 
-#text-diversity {
-    text-align: left;
-    display: inline-block;
-    color: wheat;
+form {
     width: 40%;
-    font-size: x-large;
-    font-weight: 400;
-    position: relative;
-    bottom: 25%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    height: 70%;
+    margin: 100px auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
 }
 
-#place {
-    margin-top: 30px;
-    background-color: black;
-    opacity: 0.9;
-    text-align: center;
-    display: inline-block;
-    text-align: center;
+form fieldset {
+    color: black;
+    border: 0;
 }
 
-#restaurant {
-    text-align: left;
-    display: inline-block;
-    color: wheat;
-    width: 40%;
-    font-size: x-large;
-    font-weight: 400;
-    position: relative;
-    bottom: 25%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-
+form fieldset input,
+textarea {
+    width: 100%;
 }
+
+
+
 
 footer {
     margin-top: 3%;

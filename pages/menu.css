@@ -7,8 +7,7 @@ body {
     background-color: black;
 }
 
-html,
-body {
+html, body {
     scroll-behavior: smooth;
 }
 
@@ -20,6 +19,7 @@ header {
     right: 0;
     height: auto;
 }
+
 
 a {
     text-decoration: none;
@@ -63,7 +63,6 @@ li {
     font-size: 120%;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
 #logo {
     align-items: center;
 }
@@ -75,24 +74,6 @@ main {
     flex-direction: column;
 }
 
-#description {
-
-    text-align: center;
-    align-items: center;
-    display: inline-block;
-    background-color: black;
-    position: relative;
-}
-
-#background {
-    opacity: 0.9;
-}
-
-#ideals {
-    top: 0px;
-    text-align: center;
-    left: 30%;
-}
 
 h1 {
     color: black;
@@ -105,7 +86,7 @@ h1 {
 
 }
 
-#ingredients {
+#bacon {
     margin-top: 30px;
     display: inline-block;
     text-align: center;
@@ -133,7 +114,7 @@ aside {
     font-size: x-large;
     font-weight: 400;
     position: relative;
-    bottom: 15%;
+    bottom: 35%;
     padding-left: 3%;
     padding-right: 3%;
     font-family: 'Barlow Semi Condensed', sans-serif;
