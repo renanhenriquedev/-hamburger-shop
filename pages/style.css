@@ -5,7 +5,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: yellow;
+        background-color: black
     }
 
     html,
@@ -15,6 +15,7 @@
 
     header {
         background-color: purple;
+        display: block;
         width: 100%;
         left: 0;
         top: 0;
@@ -37,14 +38,13 @@
 
     #burguer {
         position: relative;
-        left: 250%;
         top: 15px;
+        margin-left: 15px;
     }
 
     p {
         position: relative;
         color: whitesmoke;
-        left: 250%;
         margin-left: 15px;
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
@@ -60,7 +60,6 @@
         display: inline-block;
         margin: 15px;
         position: relative;
-        left: 150%;
         font-size: 120%;
         font-family: 'Barlow Semi Condensed', sans-serif;
     }
@@ -92,6 +91,8 @@
 
     #background {
         opacity: 0.9;
+        width: 100%;
+        height: 120%;
     }
 
     #ideals {
@@ -103,19 +104,20 @@
     h1 {
         color: black;
         position: absolute;
-        bottom: 150px;
         text-align: center;
         margin-right: 25%;
-        margin-top: 35px;
+        margin-top: 0px;
+        font-size: small;
         font-family: 'Barlow Semi Condensed', sans-serif;
 
     }
 
     #ingredients {
         margin-top: 30px;
-        display: inline-block;
+        display: inline;
         text-align: center;
         opacity: 0.9;
+        margin-top: 100px;
     }
 
 
@@ -125,70 +127,56 @@
     }
 
     #fresh {
-        display: inline-block;
-        text-align: left;
-        color: wheat;
-        width: 40%;
-        font-size: x-large;
-        font-weight: 400;
+        display: block;
         position: relative;
-        bottom: 15%;
-        padding-left: 3%;
-        padding-right: 3%;
+        left: 25%;
+        color: whitesmoke;
+        width: 50%;
+        font-size: medium;
+        font-weight: 400;
         font-family: 'Barlow Semi Condensed', sans-serif;
 
     }
 
     #diversity {
         margin-top: 30px;
-        background-color: black;
+        display: inline;
+        text-align: center;
         opacity: 0.9;
-        text-align: center;
-        display: inline-block;
-        text-align: center;
     }
 
     .img {
         border: 1px solid white;
-        width: 30%;
+        width: 50%;
     }
 
     #text-diversity {
-        text-align: left;
-        display: inline-block;
-        color: wheat;
-        width: 40%;
-        font-size: x-large;
-        font-weight: 400;
+        display: block;
         position: relative;
-        bottom: 25%;
-        padding-left: 3%;
-        padding-right: 3%;
+        left: 25%;
+        color: whitesmoke;
+        width: 50%;
+        font-size: medium;
+        font-weight: 400;
         font-family: 'Barlow Semi Condensed', sans-serif;
     }
 
     #place {
         margin-top: 30px;
-        background-color: black;
+        display: inline;
+        text-align: center;
         opacity: 0.9;
-        text-align: center;
-        display: inline-block;
-        text-align: center;
     }
 
     #restaurant {
-        text-align: left;
-        display: inline-block;
-        color: wheat;
-        width: 40%;
-        font-size: x-large;
-        font-weight: 400;
+        display: block;
         position: relative;
-        bottom: 25%;
-        padding-left: 3%;
-        padding-right: 3%;
+        left: 25%;
+        color: whitesmoke;
+        width: 50%;
+        font-size: medium;
+        font-weight: 400;
         font-family: 'Barlow Semi Condensed', sans-serif;
-
     }
 
     footer {
