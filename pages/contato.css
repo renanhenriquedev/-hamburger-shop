@@ -26,6 +26,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
 #logo {
     display: inline-block;
 }
@@ -75,47 +79,12 @@ main {
     flex-direction: column;
 }
 
-
-
-#background {
-    opacity: 0.9;
-}
-
-
-
 #contato {
     margin-top: 30px;
     display: inline-block;
     text-align: center;
     opacity: 0.9;
 }
-
-
-#about:active {
-    transform: scale(0.9);
-    background-color: aqua;
-    transition-duration: 0.5s;
-    scroll-behavior: smooth;
-    transition-timing-function: ease-in-out;
-}
-
-
-
-#fresh {
-    display: inline-block;
-    text-align: left;
-    color: wheat;
-    width: 40%;
-    font-size: x-large;
-    font-weight: 400;
-    position: relative;
-    bottom: 15%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-
-}
-
 
 .img {
     border: 1px solid white;
