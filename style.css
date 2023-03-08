@@ -5,14 +5,15 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
+    }
+
     body {
         height: 100vh;
         display: flex;
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black
+        background-color: #182333
     }
 
     html,
@@ -21,7 +22,7 @@
     }
 
     header {
-        background-color: purple;
+        background-color: rgb(212, 50, 212);
         display: block;
         width: 100%;
         left: 0;
@@ -33,7 +34,7 @@
     a {
         text-decoration: none;
         color: white;
-        
+
     }
 
     #logo {
@@ -43,7 +44,7 @@
 
     #options {
         margin-left: 30px;
-        
+
 
     }
 
@@ -56,10 +57,10 @@
         position: relative;
         color: whitesmoke;
         margin-left: 15px;
+        margin-top: 15px;
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
-        display: none;
     }
 
     ul {
@@ -76,7 +77,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
 
@@ -96,7 +97,7 @@
         text-align: center;
         align-items: center;
         display: inline-block;
-        background-color: black;
+        background-color: #182333;
         position: relative;
     }
 
@@ -112,17 +113,6 @@
         left: 30%;
     }
 
-    h1 {
-        color: black;
-        position: absolute;
-        text-align: center;
-        margin-right: 25%;
-        margin-top: 0px;
-        font-size: small;
-        font-family: 'Barlow Semi Condensed', sans-serif;
-        display: none;
-
-    }
 
     #ingredients {
         margin-top: 30px;
@@ -136,11 +126,14 @@
 
     aside {
         color: white;
+        margin-top: 20px;
     }
 
     #fresh {
         display: block;
         position: relative;
+        text-align: left;
+
         left: 25%;
         color: whitesmoke;
         width: 50%;
@@ -165,6 +158,8 @@
     #text-diversity {
         display: block;
         position: relative;
+        text-align: left;
+
         left: 25%;
         color: whitesmoke;
         width: 50%;
@@ -184,6 +179,7 @@
         display: block;
         position: relative;
         left: 25%;
+        text-align: left;
         color: whitesmoke;
         width: 50%;
         font-size: medium;
@@ -205,14 +201,15 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
+    }
+
     body {
         height: 100vh;
         display: flex;
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black
+        background-color: #182333
     }
 
     html,
@@ -221,7 +218,7 @@
     }
 
     header {
-        background-color: purple;
+        background-color: rgb(212, 50, 212);
         display: inline-block;
         width: 100%;
         left: 0;
@@ -233,11 +230,12 @@
     a {
         text-decoration: none;
         color: white;
-        
+
     }
 
     #options {
         display: flex;
+        margin-left: 30px;
         justify-content: center;
     }
 
@@ -250,17 +248,16 @@
     #burguer {
         position: relative;
         top: 15px;
-        text-align: center;
     }
 
     p {
         position: relative;
         color: whitesmoke;
         margin-left: 15px;
+        margin-top: 35px;
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
-        display: none;
     }
 
     ul {
@@ -277,7 +274,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
 
@@ -294,7 +291,7 @@
         text-align: center;
         align-items: center;
         display: inline-block;
-        background-color: black;
+        background-color: #182333;
         position: relative;
     }
 
@@ -322,6 +319,7 @@
 
     aside {
         color: white;
+        margin-top: 20px;
     }
 
     #fresh {
@@ -383,15 +381,15 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-    }   
+    }
 }
 
 @media (min-width: 769px) {
     * {
-         margin: 0;
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
+    }
 
     body {
         height: 100vh;
@@ -399,7 +397,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -409,12 +407,14 @@
 
     header {
         background-color: purple;
+        display: block;
         width: 100%;
         left: 0;
         top: 0;
         right: 0;
         height: auto;
     }
+
 
     a {
         text-decoration: none;
@@ -424,30 +424,33 @@
     #logo {
         display: flex;
         justify-content: center;
-        margin-left: 180px;
     }
 
     #options {
         display: flex;
         justify-content: center;
+        margin-left: 30px;
     }
 
     #burguer {
         position: relative;
-        top: 10px;
+        top: 15px;
     }
 
     p {
         position: relative;
         color: whitesmoke;
-        margin-left: 30px;
-        padding-right: 100px;
+        margin-left: 15px;
+        margin-top: 35px;
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
-        top: 13px;
     }
 
+    ul {
+        display: inline-block;
+        list-style: none;
+    }
 
     li {
         display: inline-block;
@@ -458,9 +461,8 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
-
 
     #logo {
         align-items: center;
@@ -473,6 +475,7 @@
         flex-direction: column;
     }
 
+
     #background {
         opacity: 0.9;
         width: 250%;
@@ -481,12 +484,13 @@
     #ingredients {
         margin-top: 30px;
         display: flex;
-        justify-content:center;
+        justify-content: center;
         opacity: 0.9;
     }
 
     aside {
         color: white;
+        margin-top: 20px;
     }
 
     #fresh {
@@ -515,7 +519,7 @@
         height: auto;
         margin-left: 50px;
     }
-    
+
     #ing {
         height: 80%;
     }
