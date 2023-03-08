@@ -167,7 +167,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
+    }
 
     body {
         height: 100vh;
@@ -184,8 +184,8 @@
     }
 
     header {
-        display: block;
         background-color: purple;
+        display: block;
         width: 100%;
         left: 0;
         top: 0;
@@ -193,13 +193,10 @@
         height: auto;
     }
 
+
     a {
         text-decoration: none;
         color: white;
-    }
-
-    a:hover {
-        color: rgb(0, 0, 0);
     }
 
     #logo {
@@ -208,6 +205,8 @@
     }
 
     #options {
+        display: flex;
+        justify-content: center;
         margin-left: 30px;
     }
 
@@ -219,8 +218,8 @@
     p {
         position: relative;
         color: whitesmoke;
-        margin-top: 35px;
         margin-left: 15px;
+        margin-top: 35px;
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
@@ -237,6 +236,10 @@
         position: relative;
         font-size: 120%;
         font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+
+    a:hover {
+        color: rgb(0, 0, 0);
     }
 
     #logo {
@@ -325,3 +328,4 @@
         transform: translateX(-50%);
     }
 }
+
