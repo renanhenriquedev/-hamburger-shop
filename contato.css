@@ -1,143 +1,155 @@
-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
+@media (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-html,
-body {
-    scroll-behavior: smooth;
-}
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
 
-header {
-    background-color: purple;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: auto;
-}
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+    header {
+        background-color: purple;
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: auto;
+    }
 
-a:hover {
-    color: rgb(0, 0, 0);
-}
+    a {
+        text-decoration: none;
+        color: white;
+    }
 
-#logo {
-    display: inline-block;
-}
+    a:hover {
+        color: rgb(0, 0, 0);
+    }
 
-#options {
-    display: inline-block;
-}
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
 
-#burguer {
-    position: relative;
-    left: 250%;
-    top: 15px;
-}
+    #options {
+        margin-left: 30px;
+    }
 
-.name {
-    position: relative;
-    color: whitesmoke;
-    left: 250%;
-    margin-left: 15px;
-    display: inline-block;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 120%;
-}
+    #burguer {
+        position: relative;
+        top: 15px;
+    }
 
-ul {
-    display: inline-block;
-    list-style: none;
-}
+    .name {
+        position: relative;
+        color: whitesmoke;
+        margin-top: 35px;
+        margin-left: 15px;
+        display: inline-block;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 120%;
+    }
 
-li {
-    display: inline-block;
-    margin: 15px;
-    position: relative;
-    left: 150%;
-    font-size: 120%;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-}
+    ul {
+        display: inline-block;
+        list-style: none;
+    }
 
-#logo {
-    align-items: center;
-}
+    li {
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        font-size: 120%;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
 
-main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
+    #logo {
+        align-items: center;
+    }
 
-#contato {
-    margin-top: 30px;
-    display: inline-block;
-    text-align: center;
-    opacity: 0.9;
-}
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
-.img {
-    border: 1px solid white;
-    width: 30%;
-}
+    #contato {
+        display: inline;
+        text-align: center;
+        opacity: 0.9;
+    }
 
-form {
-    width: 40%;
-    height: 70%;
-    margin: 100px auto;
-    background-color: whitesmoke;
-    border-radius: 15px;
-}
+    .img {
+        border: 1px solid white;
+        width: 30%;
+    }
 
-form fieldset {
-    color: black;
-    border: 0;
-}
+    form {
+        width: 80%;
+        height: 70%;
+        margin: 100px auto;
+        background-color: whitesmoke;
+        border-radius: 15px;
+        
+    }
 
-form fieldset input,
-textarea {
-    width: 100%;
-}
+    form fieldset {
+        color: black;
+        border: 0;
+    }
 
-#social {
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    opacity: 0.9;
-}
+    form fieldset input,
+    textarea {
+        width: 100%;
+    }
 
-#social img {
-    width: 50px;
-    height: 50px;
-}
+    #social {
+        display: flex;
+        margin-top: 30px;
+        width: 100%;
+        justify-content: center;
+        opacity: 0.9;
+    }
+
+    #social img {
+        width: 50px;
+        height: 50px;
+    }
 
 
-#social a {
-    
-    margin-right: 1%;
-}
+    #social a {
+        margin-right: 8%;
+    }
 
-#maps {
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    opacity: 0.9;
-}
+    #maps {
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: center;
+        opacity: 0.9;
+    }
 
-footer {
-    margin-top: 3%;
-    color: white;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    iframe {
+        width: 80%;
+    }
+
+    footer {
+        margin-top: 3%;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
