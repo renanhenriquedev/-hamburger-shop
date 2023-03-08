@@ -56,10 +56,10 @@
         position: relative;
         color: whitesmoke;
         margin-left: 15px;
+        margin-top: 15px;
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
-        display: none;
     }
 
     ul {
@@ -112,17 +112,6 @@
         left: 30%;
     }
 
-    h1 {
-        color: black;
-        position: absolute;
-        text-align: center;
-        margin-right: 25%;
-        margin-top: 0px;
-        font-size: small;
-        font-family: 'Barlow Semi Condensed', sans-serif;
-        display: none;
-
-    }
 
     #ingredients {
         margin-top: 30px;
@@ -136,11 +125,14 @@
 
     aside {
         color: white;
+        margin-top: 20px;
     }
 
     #fresh {
         display: block;
         position: relative;
+        text-align: left;
+
         left: 25%;
         color: whitesmoke;
         width: 50%;
@@ -165,6 +157,8 @@
     #text-diversity {
         display: block;
         position: relative;
+        text-align: left;
+
         left: 25%;
         color: whitesmoke;
         width: 50%;
@@ -184,6 +178,7 @@
         display: block;
         position: relative;
         left: 25%;
+        text-align: left;
         color: whitesmoke;
         width: 50%;
         font-size: medium;
@@ -260,7 +255,6 @@
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
-        display: none;
     }
 
     ul {
@@ -322,6 +316,7 @@
 
     aside {
         color: white;
+        margin-top: 20px;
     }
 
     #fresh {
@@ -487,6 +482,7 @@
 
     aside {
         color: white;
+        margin-top: 20px;
     }
 
     #fresh {
