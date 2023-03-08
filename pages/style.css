@@ -1,4 +1,11 @@
-@media (min-width:0px) {
+/* 480, 481-768 tablet, 769- 1024 */
+
+@media (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
     body {
         height: 100vh;
         display: flex;
@@ -26,6 +33,7 @@
     a {
         text-decoration: none;
         color: white;
+        
     }
 
     #logo {
@@ -39,7 +47,8 @@
     #burguer {
         position: relative;
         top: 15px;
-        margin-left: 15px;
+        margin-left: 150px;
+        text-align: center;
     }
 
     p {
@@ -49,6 +58,7 @@
         display: inline-block;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 120%;
+        display: none;
     }
 
     ul {
@@ -109,6 +119,7 @@
         margin-top: 0px;
         font-size: small;
         font-family: 'Barlow Semi Condensed', sans-serif;
+        display: none;
 
     }
 
@@ -188,8 +199,211 @@
     }
 }
 
-@media (min-width: 1020px) {
+@media (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background-color: black
+    }
 
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+
+    header {
+        background-color: purple;
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: auto;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    #logo {
+        display: inline-block;
+    }
+
+    #options {
+        display: inline-block;
+    }
+
+    #burguer {
+        position: relative;
+        top: 15px;
+        margin-left: 150px;
+        text-align: center;
+    }
+
+    p {
+        position: relative;
+        color: whitesmoke;
+        margin-left: 15px;
+        display: inline-block;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 120%;
+        display: none;
+    }
+
+    ul {
+        display: inline-block;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        font-size: 120%;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+
+    a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+
+    #logo {
+        align-items: center;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #description {
+
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        background-color: black;
+        position: relative;
+    }
+
+    #background {
+        opacity: 0.9;
+        width: 100%;
+        height: 120%;
+    }
+
+    #ideals {
+        top: 0px;
+        text-align: center;
+        left: 30%;
+    }
+
+    h1 {
+        color: black;
+        position: absolute;
+        text-align: center;
+        margin-right: 25%;
+        margin-top: 0px;
+        font-size: small;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        display: none;
+
+    }
+
+    #ingredients {
+        margin-top: 30px;
+        display: inline;
+        text-align: center;
+        opacity: 0.9;
+        margin-top: 100px;
+    }
+
+
+
+    aside {
+        color: white;
+    }
+
+    #fresh {
+        display: block;
+        position: relative;
+        left: 25%;
+        color: whitesmoke;
+        width: 50%;
+        font-size: medium;
+        font-weight: 400;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+
+    }
+
+    #diversity {
+        margin-top: 30px;
+        display: inline;
+        text-align: center;
+        opacity: 0.9;
+    }
+
+    .img {
+        border: 1px solid white;
+        width: 50%;
+    }
+
+    #text-diversity {
+        display: block;
+        position: relative;
+        left: 25%;
+        color: whitesmoke;
+        width: 50%;
+        font-size: medium;
+        font-weight: 400;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+
+    #place {
+        margin-top: 30px;
+        display: inline;
+        text-align: center;
+        opacity: 0.9;
+    }
+
+    #restaurant {
+        display: block;
+        position: relative;
+        left: 25%;
+        color: whitesmoke;
+        width: 50%;
+        font-size: medium;
+        font-weight: 400;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+
+    footer {
+        margin-top: 3%;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }   
+}
+
+@media (min-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
     body {
         height: 100vh;
@@ -207,7 +421,7 @@
 
     header {
         background-color: purple;
-        width: 100%;
+        width: 15000px;
         left: 0;
         top: 0;
         right: 0;
@@ -267,14 +481,14 @@
     }
 
     main {
-        width: 100%;
+        width: 160%;
         height: 100%;
         display: flex;
         flex-direction: column;
     }
 
     #description {
-
+        width: 100%;
         text-align: center;
         align-items: center;
         display: inline-block;
@@ -284,6 +498,7 @@
 
     #background {
         opacity: 0.9;
+        width: 250%;
     }
 
     #ideals {
@@ -320,7 +535,7 @@
         display: inline-block;
         text-align: left;
         color: wheat;
-        width: 40%;
+        width: 48%;
         font-size: x-large;
         font-weight: 400;
         position: relative;
