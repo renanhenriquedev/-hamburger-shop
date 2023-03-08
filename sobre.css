@@ -63,7 +63,6 @@ li {
     font-size: 120%;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
 #logo {
     align-items: center;
 }
@@ -76,31 +75,12 @@ main {
 }
 
 
-h1 {
-    color: black;
-    position: absolute;
-    bottom: 150px;
-    text-align: center;
-    margin-right: 25%;
-    margin-top: 35px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
 
-}
-
-#bacon {
+#integrity {
     margin-top: 30px;
     display: inline-block;
     text-align: center;
     opacity: 0.9;
-}
-
-
-#about:active {
-    transform: scale(0.9);
-    background-color: aqua;
-    transition-duration: 0.5s;
-    scroll-behavior: smooth;
-    transition-timing-function: ease-in-out;
 }
 
 aside {
@@ -150,7 +130,7 @@ aside {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-#place {
+#inovation {
     margin-top: 30px;
     background-color: black;
     opacity: 0.9;
@@ -159,7 +139,7 @@ aside {
     text-align: center;
 }
 
-#restaurant {
+#text-inovation {
     text-align: left;
     display: inline-block;
     color: wheat;
