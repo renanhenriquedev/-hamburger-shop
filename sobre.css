@@ -11,7 +11,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -35,7 +35,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
     #logo {
@@ -175,7 +175,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -239,7 +239,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
     #logo {
@@ -342,7 +342,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -406,7 +406,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
     #logo {

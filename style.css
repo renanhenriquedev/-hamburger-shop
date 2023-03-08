@@ -13,7 +13,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black
+        background-color: #182333
     }
 
     html,
@@ -22,7 +22,7 @@
     }
 
     header {
-        background-color: purple;
+        background-color: rgb(212, 50, 212);
         display: block;
         width: 100%;
         left: 0;
@@ -77,7 +77,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
 
@@ -97,7 +97,7 @@
         text-align: center;
         align-items: center;
         display: inline-block;
-        background-color: black;
+        background-color: #182333;
         position: relative;
     }
 
@@ -209,7 +209,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black
+        background-color: #182333
     }
 
     html,
@@ -218,7 +218,7 @@
     }
 
     header {
-        background-color: purple;
+        background-color: rgb(212, 50, 212);
         display: inline-block;
         width: 100%;
         left: 0;
@@ -274,7 +274,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
 
@@ -291,7 +291,7 @@
         text-align: center;
         align-items: center;
         display: inline-block;
-        background-color: black;
+        background-color: #182333;
         position: relative;
     }
 
@@ -397,7 +397,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -461,7 +461,7 @@
     }
 
     a:hover {
-        color: rgb(0, 0, 0);
+        color: rgb(212, 50, 212);
     }
 
     #logo {
