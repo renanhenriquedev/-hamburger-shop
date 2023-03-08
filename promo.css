@@ -485,17 +485,16 @@
         display: inline;
     }
 
-    #vegano {
-        text-align: left;
-        display: block;      
+    #restaurant {
+        display: block;
         position: relative;
         left: 25%;
+        text-align: left;
         color: whitesmoke;
         width: 50%;
         font-size: medium;
         font-weight: 400;
         font-family: 'Barlow Semi Condensed', sans-serif;
-
     }
 
     footer {

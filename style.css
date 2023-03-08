@@ -22,7 +22,7 @@
     }
 
     header {
-        background-color: rgb(212, 50, 212);
+        background-color: purple;
         display: block;
         width: 100%;
         left: 0;
@@ -218,7 +218,7 @@
     }
 
     header {
-        background-color: rgb(212, 50, 212);
+        background-color: purple;
         display: inline-block;
         width: 100%;
         left: 0;
