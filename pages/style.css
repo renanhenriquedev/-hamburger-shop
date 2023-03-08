@@ -37,18 +37,19 @@
     }
 
     #logo {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
     }
 
     #options {
-        display: inline-block;
+        margin-left: 30px;
+        
+
     }
 
     #burguer {
         position: relative;
         top: 15px;
-        margin-left: 150px;
-        text-align: center;
     }
 
     p {
@@ -221,7 +222,7 @@
 
     header {
         background-color: purple;
-        display: block;
+        display: inline-block;
         width: 100%;
         left: 0;
         top: 0;
@@ -235,18 +236,20 @@
         
     }
 
-    #logo {
-        display: inline-block;
+    #options {
+        display: flex;
+        justify-content: center;
     }
 
-    #options {
-        display: inline-block;
+
+    #logo {
+        display: flex;
+        justify-content: center;
     }
 
     #burguer {
         position: relative;
         top: 15px;
-        margin-left: 150px;
         text-align: center;
     }
 
@@ -278,9 +281,6 @@
     }
 
 
-    #logo {
-        align-items: center;
-    }
 
     main {
         width: 100%;
