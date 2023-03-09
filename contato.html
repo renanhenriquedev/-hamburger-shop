@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contato.css">
     <link rel="shortcut icon" href="./../imagens/hamburguer.png" type="image/x-icon">
     <title>Comeia Hamburgueria</title>
 </head>
@@ -40,26 +41,22 @@
             <form action="">
 
                 <fieldset>
-                    <label for="input-name">Nome</label>
-                    <input type="text" name="input-name" id="input-name">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Nome">
                 </fieldset>
 
                 <fieldset>
-                    <label for="input-email">Email</label>
-                    <input type="email" name="input-email" id="input-email">
+                    <input type="email" class="form-control teste" id="floatingInput" placeholder="Email">
                 </fieldset>
 
                 <fieldset>
-                    <label for="input-tel">Telefone</label>
-                    <input type="tel" name="input-tel" id="input-tel">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Telefone">
                 </fieldset>
 
                 <fieldset>
-                    <label for="input-msg">Mensagem</label>
-                    <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" placeholder="Mensagem" id="floatingTextarea2" style="height: 100px"></textarea>
                 </fieldset>
 
-                <input class='buttons' type="submit" value="Enviar">
+                <button type="button" class="btn btn-dark">Enviar</button>
 
             </form>
         </div>
@@ -86,7 +83,6 @@
 
 
     </main>
-
 
 
 </body>
