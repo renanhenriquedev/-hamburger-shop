@@ -566,3 +566,6 @@
         transform: translateX(-50%);
     }
 }
+body {
+background-color: #182333;
+}
