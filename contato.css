@@ -11,7 +11,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -71,9 +71,14 @@
         margin: 15px;
         position: relative;
         font-size: 120%;
-        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
     }
 
+    li:hover {
+        color: rgb(212, 50, 212);
+        cursor: pointer;
+    }
+    
     #logo {
         align-items: center;
     }
@@ -106,7 +111,7 @@
     }
 
     form fieldset {
-        color: black;
+        color: #182333;
         border: 0;
     }
 
@@ -143,6 +148,22 @@
 
     iframe {
         width: 80%;
+    }
+
+    fieldset {
+        margin-top: 30px;
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+
+    input {
+        text-align: center;
     }
 
     footer {
@@ -167,7 +188,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -229,9 +250,14 @@
         margin: 15px;
         position: relative;
         font-size: 120%;
-        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
     }
 
+    li:hover {
+        color: rgb(212, 50, 212);
+        cursor: pointer;
+    }
+    
     #logo {
         align-items: center;
     }
@@ -264,7 +290,7 @@
     }
 
     form fieldset {
-        color: black;
+        color: #182333;
         border: 0;
     }
 
@@ -303,6 +329,22 @@
         width: 80%;
     }
 
+    fieldset {
+        margin-top: 30px;
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+
+    input {
+        text-align: center;
+    }
+
     footer {
         margin-top: 3%;
         color: white;
@@ -325,7 +367,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        background-color: black;
+        background-color: #182333;
     }
 
     html,
@@ -388,6 +430,12 @@
         position: relative;
         font-size: 120%;
         font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
+    }
+
+    li:hover {
+        color: rgb(212, 50, 212);
+        cursor: pointer;
     }
 
     #logo {
@@ -424,13 +472,25 @@
     }
 
     form fieldset {
-        color: black;
+        color: #182333;
         border: 0;
     }
 
     form fieldset input,
     textarea {
         width: 100%;
+    }
+
+    fieldset {
+        margin-top: 30px;
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+    button {
+        margin-top: 30px;
     }
 
     input {
